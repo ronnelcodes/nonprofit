@@ -1,0 +1,275 @@
+/* Web Fonts -------------------- */
+
+* {
+  font-family: 'Francois One', sans-serif;
+}
+
+/* Base Styles -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #2F4F4F;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Abel', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 7.625rem; /* 90px/16px  */
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: -3px -6px 10px #222; /*horizontal  vertical  blur  color*/
+  margin: 12px 0 0;
+}
+
+h2 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10%;
+}
+
+ul,
+ol {
+  margin: 30px 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: #F0F;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: rgba(255, 169, 73, .4);
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+  padding-top: 170px;
+  height: 850px;
+  background: linear-gradient(#00008B, transparent 80%),
+              linear-gradient(0deg,#fff, transparent),
+              #00008B url('https://i.postimg.cc/rpkXk0xL/pexels-marina-monroe-3909430.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .65em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.primary-content {
+	padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #F0F;
+}
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content,
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+.women {
+  color: white;
+  text-align: left;
+  padding: 18% 24%;
+  border-top: 10px solid #F0F;
+  margin: 105px 0 60px;
+  background: linear-gradient(#808080
+, transparent 40%),    url('https://lh3.googleusercontent.com/71h79zDXHZmYBCNmQWA6TuPT6TAo0k68cXCf044Mc2gtocrxePWCYURXkb4QWxCktjUYScNbzkJhgoUm4Uqhjqhh77RA75uRm0SSdyodDK0nFOZK-buA54oyuSSpxvlb2O1fjYjLrh28G3DSe-etKtJb4kYJqp28KM8Won_IMNKUeSOxtWDryrb-2BWCxokowGRuAmARGhTiwxQzALGVivxmkpyVr78Grb5YY9cs5-YaGg7w-_l7CuvDKYYhXyjkwPv8P03IOgu3A1JbZUha5cl9PP4KMc1R-eyYpyzcA1dNL4IlZi2hVOz-2XZNuIOt5hGOLdu7qLxJPBXg38o-uY23Gr6wFEz5jbsDzs509qdwpuvJmoahhcUMy6Sw9iBfv_riNEZdgHciuPQeykOvcfht0igw0hd4puGKDR39budAbZRjdoHhA-3Vl_5Vhb58bU25uCFSwa3Ojyzlc4cmjeHjW6IFeK-dFN8U02yStGvYQxXCmaIoMhDujnz7sRoZanfwtShfw1CBuRMYl61pIo-cjjC3O7BkiOC_sYyo5tv1_hLWOCCp5CEzfsrdp7VftAgb8sq9ZqlSrq6DuEf7FGq1Wbkosa5lDWTL3RPS4atE8tFytVoVgd0yDg=w960-h720-no') no-repeat center;
+  background-size: cover;
+  box-shadow: 15px 15px 15px -2px rgba(0, 0, 0, .8); /* horizontal  vertical  blur  *spread*  color*/
+  border-radius: 10%;
+  font-size: 1.25em;
+}
+
+.arrow {
+  width: 125px;
+  margin-top: 150px;
+}
+
+/* Floated Columns ------------------ */
+
+.programs,
+.groups {
+  width: 46.5%;
+}
+
+.groups {
+  float: left;
+}
+
+.programs {
+  float: right;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries -------------------- */
+
+@media (max-width: 1024px) {
+    .primary-content,
+    .secondary-content {
+       width: 90%;
+}
+
+    .women {
+       padding: 10% 12%;
+       margin: 50px 0 20px;
+}
+
+}
+
+@media (max-width: 768px) {
+    .primary-content,
+    .secondary-content {
+       width: 100%;
+       padding: 20px;
+       border-top: none;
+}
+
+    .main-header {
+      max-height: 380px;
+      padding: 50px 25px 0;
+}
+
+    .title {
+      font-size: 1.3rem;
+      border-style: none;
+}
+
+    h1 {
+      font-size:5rem;
+      line-height:1.1;
+}
+
+    .arrow {
+      display: none;
+}
+
+    .intro {
+      font-size:1rem;
+}
+
+    .programs,
+    .groups {
+      float: none;
+      width: 100%;
+}
+
+    .main-footer {
+      padding: 20px 0;
+}
+}
+
+
+/*
+@media (max-width: 960px) {
+body {
+  background-color: royalblue;
+}
+
+}
+
+@media (max-width: 480px) {
+body {
+  background-color: darkred;
+}
+}
+
+@media (min-width: 481px) and (max-width: 700px) {
+body {
+  background-color:seagreen;
+}
+p {
+  color: white;
+}
+}
+*/
